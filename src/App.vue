@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       films: [],
-      selectedFilm: {}
+      selectedFilm: null
     };
   },
   components: {
