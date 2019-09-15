@@ -3,6 +3,7 @@
    <div id="main">     
       <films-list :films="films"></films-list>
       <film-detail :film="selectedFilm"></film-detail>
+      <film-filter :films="films"></film-filter>
    </div>
   </div>
 </template>
@@ -11,6 +12,7 @@
 import { eventBus } from "./main.js"
 import FilmsList from "./components/FilmsList.vue"
 import FilmDetail from "./components/FilmDetail.vue"
+import FilmFilter from "./components/FilmFilter.vue"
 
 export default {
   name: "app",
@@ -22,7 +24,8 @@ export default {
   },
   components: {
     "films-list": FilmsList,
-    "film-detail": FilmDetail
+    "film-detail": FilmDetail,
+    "film-filter": FilmFilter
   },
   mounted() {
     fetch('https://ghibliapi.herokuapp.com/films')
