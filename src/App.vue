@@ -49,7 +49,7 @@ h1{
   background-image: url("../images/Studio_Ghibli_logo.png");
   display: flex;
   justify-content: space-between;
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
 }
 </style>

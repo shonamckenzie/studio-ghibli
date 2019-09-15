@@ -1,7 +1,7 @@
 <template lang="html">
   <div v-if="film" id="filmDetail">
       <div id="detailWrapper">
-        <h2>{{ film.title }}</h2>
+        <h3>{{ film.title }}</h3>
             <p><span>Director</span>: {{ film.director }}</p>
             <p><span>Release Date</span>: {{film.release_date }}</p>
             <p><span>Description</span>: {{ film.description }}</p>
@@ -22,12 +22,12 @@ export default {
 #filmDetail {
     box-sizing: border-box;
     height: 400px;
-    width: 60%;
+    width: 45%;
     color: black; 
-    padding: 10px;
+    padding-left: 10px;
   }
 
-h2 {
+h3 {
     margin: 10px 0 20px;
     padding: 0;
   }
@@ -38,7 +38,7 @@ p span {
 
   #detailWrapper {
     box-sizing: border-box;
-    padding: 10px;
+    padding-left: 70px;
     height: 100%;
     border-radius: 3px;
   }
