@@ -1,6 +1,6 @@
 <template lang="html">
     <div id="filmsList">
-        <h2>Films</h2>
+        <h3>Films</h3>
         <ul>
             <film-list-item v-for="(film, index) in films" :film="film" :key="index"></film-list-item>
         </ul>
@@ -20,11 +20,13 @@ export default {
 </script>
 
 <style lang="css" scoped>
-h2 {
-    margin: 20px 5px 20px;
+
+h3 {
+    margin: 5px 0 20px;
     padding: 5px;
     position: fixed;
-}
+  }
+
 #filmsList {
     height: 470px;
     overflow-y: scroll;
@@ -32,7 +34,7 @@ h2 {
   }
 
   #filmsList ul {
-    margin-top: 70px;
+    margin-top: 50px;
     padding: 0;
   }
 
