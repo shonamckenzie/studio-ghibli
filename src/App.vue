@@ -1,8 +1,9 @@
 <template lang="html">
-   <div id="main">
-      <h1>Studio Ghibli - Films</h1>
+  <div><h1>Studio Ghibli - Films</h1>
+   <div id="main">     
       <films-list :films="films"></films-list>
       <film-detail :film="selectedFilm"></film-detail>
+   </div>
   </div>
 </template>
 
@@ -41,7 +42,11 @@ h1{
 }
 
 #main {
-  background-color: green;
-  background-image: url("../images/Studio_Ghibli_logo.png")
+  background-color: rgb(0, 77, 128);
+  background-image: url("../images/Studio_Ghibli_logo.png");
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
 }
 </style>
