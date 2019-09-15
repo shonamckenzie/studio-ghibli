@@ -23,6 +23,7 @@ export default {
 h2 {
     margin: 20px 5px 20px;
     padding: 5px;
+    position: fixed;
 }
 #filmsList {
     height: 400px;
@@ -31,7 +32,7 @@ h2 {
   }
 
   #filmsList ul {
-    margin: 10px;
+    margin-top: 70px;
     padding: 0;
   }
 
