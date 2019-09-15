@@ -26,7 +26,7 @@ h2 {
     position: fixed;
 }
 #filmsList {
-    height: 400px;
+    height: 470px;
     overflow-y: scroll;
     border: 1px solid rgb(0, 77, 128);
   }
