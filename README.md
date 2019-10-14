@@ -1,4 +1,4 @@
-# Weekend Homework: Vue Application with Requests
+# Vue Application with Requests
 
 ### Learning Objectives
 
